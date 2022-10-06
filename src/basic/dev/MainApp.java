@@ -30,6 +30,7 @@ public class MainApp {
 		System.out.println("He So Luong: " + heSoLuong);
 		
 		System.out.println("-------");
+		
 		String tenXe = "Mercedes";
 		String hangXe = "Mercedes-Benz";
 		String giaXe = "1.6 ty";
