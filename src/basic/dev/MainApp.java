@@ -1,48 +1,71 @@
 package basic.dev;
 
+import java.util.Scanner;
+
 public class MainApp {
 	public static void main(String[] args) {
-		String ten = "Ngo Manh Thong";
-		String maSinhVien = "03665465";
-		String cmnd = "03264546485";
-		String tenLop = "Tin Hoc Ung Dung";
-		String tenTruong = "HUEIC";
-		float diemTrungBinh = 9.4F;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Thong Tin Sinh Vien");
 
-		System.out.println("Thong Tin Mot Sinh Vien: ");
-		System.out.println("Ten: " + ten);
-		System.out.println("Ma Sinh Vien: " + maSinhVien);
-		System.out.println("CMND: " + cmnd);
-		System.out.println("Ten Lop: " + tenLop);
-		System.out.println("Ten Truong: " + tenTruong);
-		System.out.println("Diem Trung Binh: " + diemTrungBinh);
+		System.out.println("nhap vao ten");
+		String ten = sc.nextLine();
 
-		System.out.println("-------");
+		System.out.println("nhap vao mxv");
+		String mxv = sc.nextLine();
 
-		String tenCongDan = "Ngo Manh Thong";
-		String diaChi = "6/15 An Thuong Cong chua";
-		String sdt = "0392872318";
-		String heSoLuong = "7.000.000 vnd";
+		System.out.println("nhap vao cmnd");
+		String cmnd = sc.nextLine();
+
+		System.out.println("nhap vao ten lop");
+		String tenLop = sc.nextLine();
 		
-		System.out.println("Thong Tin Cong Nhan: ");
-		System.out.println("Ten Cong Nhan: " + tenCongDan);
-		System.out.println("Dia Chi: " + diaChi);
-		System.out.println("SDT: " + sdt);
-		System.out.println("He So Luong: " + heSoLuong);
+		System.out.println("nhap vao ten truong");
+		String tenTruong = sc.nextLine();
+
+		System.out.println("nhap vao dtb");
+		double dtb = sc.nextDouble();
+
 		
-		System.out.println("-------");
+		System.out.println("Thong Tin Cong Dan");
 		
-		String tenXe = "Mercedes";
-		String hangXe = "Mercedes-Benz";
-		String giaXe = "1.6 ty";
-		String mauSon = "White";
+		System.out.println("nhap vao ten cong dan");	
+		String congDan = sc.nextLine();
+		
+		System.out.println("nhap vao dia chi");
+		String diaChi = sc.nextLine();
+
+		System.out.println("nhap vao sdt");
+		String sdt = sc.nextLine();
+
+		System.out.println("nhap vao he so luong");
+		String heSoLuong = sc.nextLine();
+
 		
 		System.out.println("Thong Tin Mot Chiec Xe Car");
-		System.out.println("Ten Xe: " + tenXe);
-		System.out.println("Hang Xe: " + hangXe);
-		System.out.println("Gia Xe: " + giaXe);
-		System.out.println("Mau Son: " + mauSon);
-		
+
+		System.out.println("nhap vao ten xe");
+		String tenXe = sc.nextLine();
+
+		System.out.println("nhap vao hang xe");
+		String hangXe = sc.nextLine();
+
+		System.out.println("nhap vao gia");
+		String giaXe = sc.nextLine();
+
+		System.out.println("nhap vao mau son");
+		String mauSon = sc.nextLine();
+
+		System.out.println("Ten: " + ten + "-Mxv: " + mxv + "-Cmnd: " + cmnd + "-Ten Lop: " + tenLop + "-Ten Truong: "
+				+ tenTruong + "-dtb: " + dtb);
+
+		System.out.println("--------");
+
+		System.out.println(
+				"Ten Cong Dan: " + congDan + "-Dia Chi: " + diaChi + "-sdt: " + sdt + "-He So Luong: " + heSoLuong);
+
+		System.out.println("--------");
+
+		System.out.println("Ten Xe: " + tenXe + "-Hang Xe: " + hangXe + "-Gia Xe: " + giaXe + "-Mau Son: " + mauSon);
 
 	}
 
