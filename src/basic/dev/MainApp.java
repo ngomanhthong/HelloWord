@@ -10,7 +10,7 @@ public class MainApp {
 		float diemTrungBinh = 9.4F;
 
 		System.out.println("Thong Tin Mot Sinh Vien: ");
-		System.out.println("TEn: " + ten);
+		System.out.println("Ten: " + ten);
 		System.out.println("Ma Sinh Vien: " + maSinhVien);
 		System.out.println("CMND: " + cmnd);
 		System.out.println("Ten Lop: " + tenLop);
@@ -23,6 +23,7 @@ public class MainApp {
 		String diaChi = "6/15 An Thuong Cong chua";
 		String sdt = "0392872318";
 		String heSoLuong = "7.000.000 vnd";
+		
 		System.out.println("Thong Tin Cong Nhan: ");
 		System.out.println("Ten Cong Nhan: " + tenCongDan);
 		System.out.println("Dia Chi: " + diaChi);
@@ -35,6 +36,7 @@ public class MainApp {
 		String hangXe = "Mercedes-Benz";
 		String giaXe = "1.6 ty";
 		String mauSon = "White";
+		
 		System.out.println("Thong Tin Mot Chiec Xe Car");
 		System.out.println("Ten Xe: " + tenXe);
 		System.out.println("Hang Xe: " + hangXe);
